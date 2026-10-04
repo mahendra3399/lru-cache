@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-    LRUCache cache;
+    LRUCache cache(3);
 
     std::cout << "LRU Cache initialized successfully!\n";
 
